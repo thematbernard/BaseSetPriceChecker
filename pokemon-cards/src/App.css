@@ -1,0 +1,8 @@
+.App-header h1 {
+  font-size: 3em;  /* Increase the font size */
+  font-weight: bold;  /* Make the font bold */
+  color: #d36144;  /* Change the color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  /* Add a shadow to the text */
+  margin: 10px 0;
+  animation: pop-out 1s ease-in-out;
+}

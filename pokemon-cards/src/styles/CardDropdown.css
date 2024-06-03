@@ -1,0 +1,98 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  html, body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4a2099;
+  }
+  
+  /* Container for the card dropdown */
+  .cardSelect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Container for the card info and image */
+  .card-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Card image */
+  .cardimage {
+    max-width: 150px;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+  
+  /* Card info container */
+  .card-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #c8bae4;
+  }
+  
+  /* Card info heading */
+  .card-info h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Card info paragraphs */
+  .card-info p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  /* Dropdown and file input container */
+  .card-dropdown-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Label for the dropdown */
+  .card-dropdown-container label {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Dropdown select box */
+  .card-dropdown-container select {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 200px;
+  }
+  
+  /* File input */
+  .card-dropdown-container input[type="file"] {
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+
+  
